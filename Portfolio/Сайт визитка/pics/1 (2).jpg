@@ -1,0 +1,30 @@
+<html>
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+  <WISPAccessGatewayParam
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://wifi.in.ua/WISPAccessGatewayParam.xsd">
+    <Redirect>
+	<AccessProcedure>1.0</AccessProcedure>
+	<AccessLocation></AccessLocation>
+	<LocationName></LocationName>
+	<LoginURL>http://8.8.8.8/login</LoginURL>
+	<MessageType>100</MessageType>
+	<ResponseCode>0</ResponseCode>
+    </Redirect>
+  </WISPAccessGatewayParam>
+-->
+<head>
+<title>...</title>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+</head>
+<body>
+	<script type="text/javascript">
+		document.location.href='http://10.47.208.1/login?dst=http%3A%2F%2Fdemos-jeweltheme.ipunu91y.maxcdn-edge.com%2Faa%2Fimages%2Fteam%2F1.jpg';
+	</script>
+<noscript>
+<p style="color:gray;width:100%;text-align:center;"><h1>Для корректной работы сервиса включите JavaScript в настройках браузера</h1></p>
+</noscript>
+</body>
+</html>
