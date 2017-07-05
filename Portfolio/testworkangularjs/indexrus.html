@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app='loginpage'>
+    <head>
+        <title>Login Page</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <script src="libs/angular.js"></script>
+        <script src="libs/bootstrap.css"></script>
+        <script src="js/mainrus.js"></script>
+        
+        <div class="container-fluid">
+      
+        <div class="wrapper">
+        
+        <div class="lang">
+        
+        <button type="button" class="btn btn-link"><a href="indexrus.html">Rus</a></button>
+        
+        <button type="button" class="btn btn-link"><a href="index.html">Eng</a></button>
+        
+        </div>
+        
+        <div ng-controller='lgn'>
+            <input type="text" ng-model='login'>
+            {{login}}
+        </div>
+        
+        <br>  
+        
+        <div ng-controller='pswd'>
+            <input type="password" ng-model='password'>
+            {{password}}
+        </div>
+        
+        <br>
+           
+            <button type="submit"><a href="userpagerus.html">Вход</a></button>
+            
+    <p>(c) 2017 </p>
+     </div>
+            </div>
+</body>
+</html>
