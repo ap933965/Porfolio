@@ -1,0 +1,397 @@
+﻿body {
+    padding: 0;
+    margin: 0 150px 0 150px;
+    position: absolute;
+    height: auto;
+    background-color: black;
+    width: 1000px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+/* Header */
+#header {
+    padding: 15px 15px 15px 15px;
+    position: relative;
+    height: 100px;
+}
+.about {
+    height: 100px;
+    width: 1000px;;
+     display: inline-block;
+}
+.logo {
+    float: left;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+}
+.about .nature {
+    margin: 0 0 0 50px;
+    width: 200px;
+    height: 50px;
+    float: left;
+    padding: 10px 10px 10px 10px;
+}
+.about .efect {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    margin: 0 20px 0 0;
+}
+.about .nature .text{
+    color: white;
+    display: inline-block;
+    padding: 10px 0 10px 5px;
+    font-size: 20px;
+}
+.about .nature .text b {
+    
+}
+.about .efect .text{
+    color: white;
+    display: inline-block;
+    padding: 10px 0 10px 5px;
+    font-size: 20px;
+}
+.about .efect .text b {
+    
+}
+/* #header */ 
+/* section */
+section {
+    width: 1000px;
+    padding: 20px 0 40px 0;
+    height: auto;
+}
+/* section */
+/* #information */
+#information {}
+h1 {
+    padding: 0;
+    margin: 0;
+    color: #d0cc6f;
+    width: 700px;
+    font-size: 45px;
+    text-transform: capitalizel
+}
+.mean {
+    color: white;
+    width: 300px;
+    margin: 5px 5px 5px 15px;
+    font-size: 20px;
+}
+.list  { 
+    color: white;
+    width: 300px;
+    height: 130px;
+    padding: 0;
+    margin: 0;
+}
+ul li{  
+    margin: 5px 5px 5px 15px;
+    display: inline-block;
+    color: white;   
+}
+ul li .text-3{  
+    color: white;
+    float: right;
+    padding: 0 0 0 5px;
+    margin: 0;
+}
+
+.sale {
+    width: 355px;
+    float: right; 
+    height: 300px;
+}
+.sale .text2  {
+    display: block;
+    color: white;
+    font-size: 15px;
+    float: right;
+    text-align: center;
+    padding: 5px 5px 15px 5px;
+}
+.sale .text2 .large {
+    padding: 70px 5px 5px 5px;
+    text-align: center;
+    display: block;
+    color: white;
+    font-size: 100px;
+    height: auto;
+}
+/* block */
+.block {
+    float: right;
+    display: block;
+    width: 300px;
+    height: 450px;
+}
+
+/* .timer */
+.block .timer {
+    display: inline-block;
+     margin: 3px 3px 3px 3px;
+    height: 65px;
+}
+.block .timer .one {
+    background: grey;
+    border-radius: 10px 10px 10px 10px;
+     display: inline-block;
+    width: 50px;
+    height: 60px;
+}
+.block .timer .two {
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+     display: inline-block;
+     width: 50px;
+    height: 60px;
+}
+.block .timer .three {
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+     display: inline-block;
+     width: 50px;
+    height: 60px;
+}
+.block .timer .text3 {
+    float: right;
+    width: 110px;
+    color: white;
+    font-size: 12px;
+    padding: 5px 5px 5px 5px;
+}
+.block .timer .number {
+    font-size: 60px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+/* .timer */ 
+
+/* .form */
+.block .form {
+    height: 310px;
+}
+.block .form .price {
+    display: inline-block;
+    width: 300px;
+    
+    height: 100px;
+    background: #624636;
+    border-radius: 5px 5px 30px 30px;
+}
+.block .form .price .old_price {
+    text-align: center;
+    width: 145px;
+   
+    display: inline-block;
+    font-size: 20px;
+}
+.block .form .price .new_price {
+    text-align: center;
+    width: 145px;
+   
+    display: inline-block;
+    color: orangered;
+    font-size: 20px;
+}
+.block .form .price .old_price .full_price {
+    text-align: center;
+    font-size: 20px;
+}
+
+.block .form .price .new_price .sale_price {
+    text-align: center;
+    font-size: 20px;
+}
+.block form input[type=text] {
+    margin: 20px 5px 5px 15px;
+    width: 250px;
+    height: 40px;  
+    text-align: center;
+}
+.block form input[type=tel] {
+    margin: 5px 5px 5px 15px;
+    width: 250px;
+    height: 40px;  
+    text-align: center;
+}
+.block form input[type=submit] {
+    margin: 5px 5px 5px 15px;
+    width: 250px;
+    height: 40px; 
+    background: #9b3719;
+    text-transform: capitalize;
+    box-shadow: 10px 3px 5px black;
+    border-radius: 5px 5px 5px 5px;
+}
+/* .form */
+
+/* #information */
+/* #question */
+#question { 
+    background-image: url("img/img-3.jpg");
+    margin: 250px 10px 10px 10px;
+    position: relative;
+    width: 1000px;
+    height: 300px;
+}
+.qstn span {
+    width: 1000px;
+    text-transform: uppercase;
+    color: white;
+}
+.qstn .title {
+    width: 1000px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.qstn .title2 {
+   text-transform: uppercase;
+    text-align: center;
+    color: white; 
+}
+.qstn .answer {
+    width: 650px;
+    margin: 0 0 0 170px;
+    background: white;
+    height: 200px;
+}
+.answer .yourans {
+    padding: 35px 15px 5px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.qstn .answer .yourans .circle {
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 5px 5px 5px #504d4d;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    color: black;
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 15px 0 0;
+    
+}
+ .button {
+     margin: 10px 10px 10px 150px;
+    width: 350px;
+    display: inline-block;
+    height: 50px;
+    
+}
+.button .left {
+    border-radius: 5px 5px 5px 5px;
+    background: #ed520d;
+    font-weight: bold;
+    width: 150px;
+    float: left;
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+.button .right {
+    border-radius: 5px 5px 5px 5px;
+    background: #ed520d;
+    font-weight: bold;
+    width: 150px;
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    float: right;
+    display: inline-block;
+    text-align: center;
+}
+
+.orange {
+    text-align: center;
+    text-transform: uppercase;
+    color:orangered;
+}
+/* #question */  
+    
+/* #about_efect */
+#about_efect {
+    border-radius: 5px 5px 5px 5px;
+    color: black;
+    background: white;
+    width: 1000px;
+}
+.pantomax .title4 {
+    text-transform: uppercase;
+    width: 690px;
+    height: 100px;
+    letter-spacing: 3px;
+    font-size: 30px;
+    padding: 0 0 0 35px;
+}
+.title5 {
+    width: 680px;
+    height: 170px;
+/*    border: 1px solid red;*/
+    font-size: 20px;
+    text-align: justify;
+    padding: 15px 15px 15px 15px;
+}
+#about_efect .pantomax img {
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    padding: 0;
+    opacity: .7;
+}
+/* #about_efect */
+/* #photos */
+#photos {
+    width: 1000px;
+    height: 390px;
+}
+.all_photo {
+    float: right;
+    width: 650px;
+    height: 30px;
+}
+.four, .five, .six, .seven, .eight, .nine, .ten {
+    display: inline-block;
+    padding: 20px 20px 20px 20px; 
+    margin: 5px 9px 5px 5px;
+}
+/* #about_efect */
+
+/* #medicine */
+#medicine {
+    padding: 5px 5px 5px 5px;
+    background: white;
+    width: 1000px;
+    height: 340px;
+    border-radius: 5px 5px 5px 5px;
+}
+.doctor {
+    width: 650px;
+}
+.doctor .title6 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.text4 {
+    font-size: 16px;
+    padding: 5px 5px 5px 5px;
+    padding: 
+    float: left;
+    text-align: justify;
+}
+#medicine .first {
+    float: right;
+    padding: 15px 15px 15px 15px;
+}
+.doctor .second {
+    float: right;
+    margin: 0 150px 15px 5px;
+}
+/* #medicine */
